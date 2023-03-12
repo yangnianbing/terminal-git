@@ -10,6 +10,8 @@ use tui::{
 mod app;
 mod cmdbar;
 mod strings;
+mod keys;
+mod command;
 
 fn main() -> Result<()> {
     let mut termial = start_termina(io::stdout())?;
